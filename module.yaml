@@ -3,6 +3,8 @@ full-build *default:
   build:
     target: Vostok.ClusterClient.sln
     configuration: Release
+    tool:
+      name: dotnet
 
   install:
     - Vostok.ClusterClient/bin/Release/netstandard2.0/Vostok.ClusterClient.dll
