@@ -48,6 +48,10 @@ install:
       $cm="$env:appveyor_build_folder\..\cement\Cement.Net\bin\Release\cm.exe"
       cd $env:appveyor_build_folder\..
       & $cm init
+
+      $wc = New-Object System.Net.WebClient
+      $wc.DownloadFile("https://raw.githubusercontent.com/vostok/cement-modules/master/settings", "$env:USERPROFILE\.cement\settings")
+
       cd $env:appveyor_build_folder
       echo update-deps
       & $cm update-deps
