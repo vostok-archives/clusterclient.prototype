@@ -1,12 +1,11 @@
-default:
+full-build *default:
 
   build:
     target: Vostok.ClusterClient.sln
     configuration: Release
 
   install:
-    - bin/Release/netstandard2.0/Vostok.ClusterClient.dll
+    - Vostok.ClusterClient/bin/Release/netstandard2.0/Vostok.ClusterClient.dll
   
-full-build:
   deps:
     - vostok.core
