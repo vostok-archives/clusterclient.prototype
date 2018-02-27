@@ -1,17 +1,17 @@
 default:
 
   build:
-    target: Vostok.ClusterClient.sln
+    target: Vstk.ClusterClient.sln
     configuration: Release
     tool:
       name: dotnet
 
   install:
-    - Vostok.ClusterClient/bin/Release/netstandard2.0/Vostok.ClusterClient.dll
-    - module vostok.core
+    - Vstk.ClusterClient/bin/Release/netstandard2.0/Vstk.ClusterClient.dll
+    - module vstk.core
   
   deps:
-    - vostok.core
+    - vstk.core
 
 notests *default:
   build:
