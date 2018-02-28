@@ -3,12 +3,13 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Vstk.Clusterclient</RootNamespace>
-    <Authors>Vstk team</Authors>
+    <Authors>Vostok team</Authors>
     <Company>SKB Kontur</Company>
-    <Product>Vstk</Product>
-    <Description>ClusterClient library enables developers to build resilient and efficient clients for HTTP microservices.</Description>
-    <PackageProjectUrl />
+    <Product>Vostok</Product>
+    <Copyright>Copyright © SKB Kontur 2017-2018</Copyright>
     <RepositoryUrl>https://github.com/vstk/vstk.clusterclient</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/vstk/vstk.clusterclient/blob/master/LICENSE</PackageLicenseUrl>
+    <Description>ClusterClient library enables developers to build resilient and efficient clients for HTTP microservices. http://vostok.tools/</Description>
     <PackageTags>vstk clusterclient</PackageTags>
   </PropertyGroup>
   <ItemGroup>
