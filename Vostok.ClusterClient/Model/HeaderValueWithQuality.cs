@@ -2,7 +2,7 @@ using System;
 using System.Globalization;
 using System.Linq;
 
-namespace Vstk.Clusterclient.Model
+namespace Vostok.Clusterclient.Model
 {
     public class HeaderValueWithQuality
     {

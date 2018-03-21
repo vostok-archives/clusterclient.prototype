@@ -1,7 +1,7 @@
 ﻿using System;
 using JetBrains.Annotations;
 
-namespace Vstk.Clusterclient.Model
+namespace Vostok.Clusterclient.Model
 {
     /// <summary>
     /// Represents an HTTP header in the form of a simple string key-value pair.

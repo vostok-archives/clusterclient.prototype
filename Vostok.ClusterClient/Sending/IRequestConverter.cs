@@ -1,8 +1,8 @@
 ﻿using System;
 using JetBrains.Annotations;
-using Vstk.Clusterclient.Model;
+using Vostok.Clusterclient.Model;
 
-namespace Vstk.Clusterclient.Sending
+namespace Vostok.Clusterclient.Sending
 {
     internal interface IRequestConverter
     {

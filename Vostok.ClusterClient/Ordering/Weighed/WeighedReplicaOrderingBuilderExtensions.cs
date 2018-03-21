@@ -1,10 +1,10 @@
 ﻿using System;
-using Vstk.Clusterclient.Helpers;
-using Vstk.Clusterclient.Ordering.Weighed.Adaptive;
-using Vstk.Clusterclient.Ordering.Weighed.Gray;
-using Vstk.Clusterclient.Ordering.Weighed.Leadership;
+using Vostok.Clusterclient.Helpers;
+using Vostok.Clusterclient.Ordering.Weighed.Adaptive;
+using Vostok.Clusterclient.Ordering.Weighed.Gray;
+using Vostok.Clusterclient.Ordering.Weighed.Leadership;
 
-namespace Vstk.Clusterclient.Ordering.Weighed
+namespace Vostok.Clusterclient.Ordering.Weighed
 {
     public static class WeighedReplicaOrderingBuilderExtensions
     {

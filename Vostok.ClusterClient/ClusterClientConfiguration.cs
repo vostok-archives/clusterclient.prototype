@@ -2,20 +2,20 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Vstk.Clusterclient.Criteria;
-using Vstk.Clusterclient.Misc;
-using Vstk.Clusterclient.Modules;
-using Vstk.Clusterclient.Ordering;
-using Vstk.Clusterclient.Ordering.Storage;
-using Vstk.Clusterclient.Retry;
-using Vstk.Clusterclient.Strategies;
-using Vstk.Clusterclient.Topology;
-using Vstk.Clusterclient.Transforms;
-using Vstk.Clusterclient.Transport;
-using Vstk.Commons.Model;
-using Vstk.Logging;
+using Vostok.Clusterclient.Criteria;
+using Vostok.Clusterclient.Misc;
+using Vostok.Clusterclient.Modules;
+using Vostok.Clusterclient.Ordering;
+using Vostok.Clusterclient.Ordering.Storage;
+using Vostok.Clusterclient.Retry;
+using Vostok.Clusterclient.Strategies;
+using Vostok.Clusterclient.Topology;
+using Vostok.Clusterclient.Transforms;
+using Vostok.Clusterclient.Transport;
+using Vostok.Commons.Model;
+using Vostok.Logging;
 
-namespace Vstk.Clusterclient
+namespace Vostok.Clusterclient
 {
     internal class ClusterClientConfiguration : IClusterClientConfiguration
     {

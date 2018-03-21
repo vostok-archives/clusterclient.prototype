@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using JetBrains.Annotations;
 
-namespace Vstk.Clusterclient.Topology
+namespace Vostok.Clusterclient.Topology
 {
     public interface IClusterProvider
     {

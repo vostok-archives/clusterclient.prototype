@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Vstk.Clusterclient.Criteria;
-using Vstk.Clusterclient.Misc;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Ordering.Storage;
-using Vstk.Clusterclient.Sending;
+using Vostok.Clusterclient.Criteria;
+using Vostok.Clusterclient.Misc;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Ordering.Storage;
+using Vostok.Clusterclient.Sending;
 
-namespace Vstk.Clusterclient.Modules
+namespace Vostok.Clusterclient.Modules
 {
     internal static class RequestModuleChainBuilder
     {

@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using Vstk.Clusterclient.Criteria;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Modules;
-using Vstk.Clusterclient.Ordering.Weighed;
-using Vstk.Clusterclient.Topology;
-using Vstk.Clusterclient.Transforms;
+using Vostok.Clusterclient.Criteria;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Modules;
+using Vostok.Clusterclient.Ordering.Weighed;
+using Vostok.Clusterclient.Topology;
+using Vostok.Clusterclient.Transforms;
 
-namespace Vstk.Clusterclient
+namespace Vostok.Clusterclient
 {
     public static class ClusterClientConfigurationExtensions
     {

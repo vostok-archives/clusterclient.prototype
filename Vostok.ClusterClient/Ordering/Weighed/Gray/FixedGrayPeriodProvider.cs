@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Vstk.Clusterclient.Ordering.Weighed.Gray
+namespace Vostok.Clusterclient.Ordering.Weighed.Gray
 {
     /// <summary>
     /// Represents a simple gray period provider which always return a given fixed value.

@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using JetBrains.Annotations;
-using Vstk.Clusterclient.Model;
+using Vostok.Clusterclient.Model;
 
-namespace Vstk.Clusterclient.Misc
+namespace Vostok.Clusterclient.Misc
 {
     public interface IResponseSelector
     {

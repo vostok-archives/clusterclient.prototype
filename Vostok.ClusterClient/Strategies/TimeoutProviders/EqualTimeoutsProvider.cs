@@ -1,8 +1,8 @@
 ﻿using System;
-using Vstk.Clusterclient.Model;
-using Vstk.Commons.Utilities;
+using Vostok.Clusterclient.Model;
+using Vostok.Commons.Utilities;
 
-namespace Vstk.Clusterclient.Strategies.TimeoutProviders
+namespace Vostok.Clusterclient.Strategies.TimeoutProviders
 {
     /// <summary>
     /// <para>Represents a timeout provider which divides time budget equally between several replicas (their count is called division factor).</para>

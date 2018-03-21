@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Vstk.Clusterclient.Model
+namespace Vostok.Clusterclient.Model
 {
     /// <summary>
     /// <para>Contains the names of common HTTP methods.</para>

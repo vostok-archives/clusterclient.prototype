@@ -1,7 +1,7 @@
 ﻿using JetBrains.Annotations;
-using Vstk.Clusterclient.Model;
+using Vostok.Clusterclient.Model;
 
-namespace Vstk.Clusterclient.Criteria
+namespace Vostok.Clusterclient.Criteria
 {
     /// <summary>
     /// <para>Represents a criterion used to determine the quality of replica responses.</para>

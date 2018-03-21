@@ -5,13 +5,13 @@ using System.Threading.Tasks;
 using FluentAssertions;
 using NSubstitute;
 using NUnit.Framework;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Modules;
-using Vstk.Clusterclient.Retry;
-using Vstk.ClusterClient.Tests.Helpers;
-using Vstk.Logging.Logs;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Modules;
+using Vostok.Clusterclient.Retry;
+using Vostok.ClusterClient.Tests.Helpers;
+using Vostok.Logging.Logs;
 
-namespace Vstk.ClusterClient.Tests.Core.Modules
+namespace Vostok.ClusterClient.Tests.Core.Modules
 {
     public class RequestRetryModule_Tests
     {

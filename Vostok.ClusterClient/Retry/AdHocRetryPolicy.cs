@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Vstk.Clusterclient.Model;
+using Vostok.Clusterclient.Model;
 
-namespace Vstk.Clusterclient.Retry
+namespace Vostok.Clusterclient.Retry
 {
     /// <summary>
     /// Represents a retry policy which uses external predicate to make a decision.

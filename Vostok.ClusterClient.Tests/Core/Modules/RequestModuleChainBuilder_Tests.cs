@@ -5,14 +5,14 @@ using System.Threading.Tasks;
 using FluentAssertions;
 using NSubstitute;
 using NUnit.Framework;
-using Vstk.Clusterclient;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Modules;
-using Vstk.Clusterclient.Ordering.Storage;
+using Vostok.Clusterclient;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Modules;
+using Vostok.Clusterclient.Ordering.Storage;
 
 // ReSharper disable AssignNullToNotNullAttribute
 
-namespace Vstk.ClusterClient.Tests.Core.Modules
+namespace Vostok.ClusterClient.Tests.Core.Modules
 {
     public class RequestModuleChainBuilder_Tests
     {

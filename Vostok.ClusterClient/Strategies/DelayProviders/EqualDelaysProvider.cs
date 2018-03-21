@@ -1,8 +1,8 @@
 ﻿using System;
-using Vstk.Clusterclient.Model;
-using Vstk.Commons.Utilities;
+using Vostok.Clusterclient.Model;
+using Vostok.Commons.Utilities;
 
-namespace Vstk.Clusterclient.Strategies.DelayProviders
+namespace Vostok.Clusterclient.Strategies.DelayProviders
 {
     /// <summary>
     /// <para>Represents a delay provider which divides whole time budget by a fixed number (called division factor) and issues resulting value as a forking delay for all requests.</para>

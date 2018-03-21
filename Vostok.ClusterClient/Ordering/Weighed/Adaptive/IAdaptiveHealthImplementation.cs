@@ -1,8 +1,8 @@
 ﻿using System;
 using JetBrains.Annotations;
-using Vstk.Logging;
+using Vostok.Logging;
 
-namespace Vstk.Clusterclient.Ordering.Weighed.Adaptive
+namespace Vostok.Clusterclient.Ordering.Weighed.Adaptive
 {
     /// <summary>
     /// <para>Represents an exact replica health behaviour which uses immutable <typeparamref name="THealth"/> objects as health values.</para>

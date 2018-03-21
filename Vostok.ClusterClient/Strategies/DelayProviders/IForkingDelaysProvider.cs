@@ -1,8 +1,8 @@
 ﻿using System;
 using JetBrains.Annotations;
-using Vstk.Clusterclient.Model;
+using Vostok.Clusterclient.Model;
 
-namespace Vstk.Clusterclient.Strategies.DelayProviders
+namespace Vostok.Clusterclient.Strategies.DelayProviders
 {
     public interface IForkingDelaysProvider
     {

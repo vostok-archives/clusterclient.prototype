@@ -1,4 +1,4 @@
-﻿namespace Vstk.Clusterclient.Model
+﻿namespace Vostok.Clusterclient.Model
 {
     internal static class Responses
     {

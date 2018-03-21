@@ -1,6 +1,6 @@
 using System;
 
-namespace Vstk.Clusterclient.Modules
+namespace Vostok.Clusterclient.Modules
 {
     public class ReplicaBudgetingOptions
     {

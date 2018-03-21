@@ -1,8 +1,8 @@
 ﻿using System;
-using Vstk.Clusterclient.Model;
-using Vstk.Logging;
+using Vostok.Clusterclient.Model;
+using Vostok.Logging;
 
-namespace Vstk.Clusterclient.Sending
+namespace Vostok.Clusterclient.Sending
 {
     internal class RequestConverter : IRequestConverter
     {

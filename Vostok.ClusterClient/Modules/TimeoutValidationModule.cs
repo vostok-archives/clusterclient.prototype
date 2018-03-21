@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Vstk.Clusterclient.Model;
-using Vstk.Commons.Utilities;
-using Vstk.Logging;
+using Vostok.Clusterclient.Model;
+using Vostok.Commons.Utilities;
+using Vostok.Logging;
 
-namespace Vstk.Clusterclient.Modules
+namespace Vostok.Clusterclient.Modules
 {
     internal class TimeoutValidationModule : IRequestModule
     {

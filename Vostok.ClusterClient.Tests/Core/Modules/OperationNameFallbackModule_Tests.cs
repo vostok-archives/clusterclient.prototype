@@ -4,12 +4,12 @@ using System.Threading.Tasks;
 using FluentAssertions;
 using NSubstitute;
 using NUnit.Framework;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Modules;
-using Vstk.Flow;
-using Vstk.Tracing;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Modules;
+using Vostok.Flow;
+using Vostok.Tracing;
 
-namespace Vstk.ClusterClient.Tests.Core.Modules
+namespace Vostok.ClusterClient.Tests.Core.Modules
 {
     [TestFixture]
     internal class OperationNameFallbackModule_Tests

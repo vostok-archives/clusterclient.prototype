@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using NSubstitute;
 using NSubstitute.Core;
 
-namespace Vstk.ClusterClient.Tests.Helpers
+namespace Vostok.ClusterClient.Tests.Helpers
 {
     internal static class SubstitutionHelpers
     {

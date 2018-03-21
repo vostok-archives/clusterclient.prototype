@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Vstk.Clusterclient.Helpers
+namespace Vostok.Clusterclient.Helpers
 {
     internal class TimeProvider : ITimeProvider
     {

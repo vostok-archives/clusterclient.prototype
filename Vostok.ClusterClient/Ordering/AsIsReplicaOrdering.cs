@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Ordering.Storage;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Ordering.Storage;
 
-namespace Vstk.Clusterclient.Ordering
+namespace Vostok.Clusterclient.Ordering
 {
     /// <summary>
     /// Represents an ordering which never changes replicas order.

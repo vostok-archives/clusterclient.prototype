@@ -1,7 +1,7 @@
 ﻿using System;
-using Vstk.Clusterclient.Model;
+using Vostok.Clusterclient.Model;
 
-namespace Vstk.Clusterclient.Transforms
+namespace Vostok.Clusterclient.Transforms
 {
     /// <summary>
     /// Represents a request transform which uses external delegate to modify requests.

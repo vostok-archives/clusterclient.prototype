@@ -5,14 +5,14 @@ using System.Threading.Tasks;
 using FluentAssertions;
 using NSubstitute;
 using NUnit.Framework;
-using Vstk.Clusterclient.Criteria;
-using Vstk.Clusterclient.Misc;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Modules;
-using Vstk.Clusterclient.Transport;
-using Vstk.ClusterClient.Tests.Helpers;
+using Vostok.Clusterclient.Criteria;
+using Vostok.Clusterclient.Misc;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Modules;
+using Vostok.Clusterclient.Transport;
+using Vostok.ClusterClient.Tests.Helpers;
 
-namespace Vstk.ClusterClient.Tests.Core.Modules
+namespace Vostok.ClusterClient.Tests.Core.Modules
 {
     public class AbsoluteUrlSenderModule_Tests
     {

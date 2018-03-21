@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Vstk.Clusterclient
+namespace Vostok.Clusterclient
 {
     public class ClusterClientException : Exception
     {

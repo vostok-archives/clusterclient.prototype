@@ -2,11 +2,11 @@ using System;
 using System.Collections.Generic;
 using FluentAssertions;
 using NUnit.Framework;
-using Vstk.Clusterclient.Misc;
-using Vstk.Clusterclient.Model;
-using Vstk.ClusterClient.Tests.Helpers;
+using Vostok.Clusterclient.Misc;
+using Vostok.Clusterclient.Model;
+using Vostok.ClusterClient.Tests.Helpers;
 
-namespace Vstk.ClusterClient.Tests.Core.Misc
+namespace Vostok.ClusterClient.Tests.Core.Misc
 {
     public class ClusterResultStatusSelector_Tests
     {

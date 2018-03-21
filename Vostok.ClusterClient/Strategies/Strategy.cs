@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Sending;
-using Vstk.Clusterclient.Strategies.DelayProviders;
-using Vstk.Clusterclient.Strategies.TimeoutProviders;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Sending;
+using Vostok.Clusterclient.Strategies.DelayProviders;
+using Vostok.Clusterclient.Strategies.TimeoutProviders;
 
-namespace Vstk.Clusterclient.Strategies
+namespace Vostok.Clusterclient.Strategies
 {
     public sealed class Strategy : IRequestStrategy
     {

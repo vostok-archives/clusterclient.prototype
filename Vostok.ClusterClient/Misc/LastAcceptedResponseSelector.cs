@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
-using Vstk.Clusterclient.Model;
+using Vostok.Clusterclient.Model;
 
-namespace Vstk.Clusterclient.Misc
+namespace Vostok.Clusterclient.Misc
 {
     /// <summary>
     /// Represents a response selector which works using following priority system:

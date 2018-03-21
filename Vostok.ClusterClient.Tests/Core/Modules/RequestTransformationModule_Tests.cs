@@ -4,14 +4,14 @@ using System.Threading.Tasks;
 using FluentAssertions;
 using NSubstitute;
 using NUnit.Framework;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Modules;
-using Vstk.Clusterclient.Strategies;
-using Vstk.Clusterclient.Transforms;
-using Vstk.ClusterClient.Tests.Helpers;
-using Vstk.Logging.Logs;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Modules;
+using Vostok.Clusterclient.Strategies;
+using Vostok.Clusterclient.Transforms;
+using Vostok.ClusterClient.Tests.Helpers;
+using Vostok.Logging.Logs;
 
-namespace Vstk.ClusterClient.Tests.Core.Modules
+namespace Vostok.ClusterClient.Tests.Core.Modules
 {
     public class RequestTransformationModule_Tests
     {

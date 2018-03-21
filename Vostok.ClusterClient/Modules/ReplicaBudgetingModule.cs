@@ -3,10 +3,10 @@ using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
-using Vstk.Clusterclient.Model;
-using Vstk.Logging;
+using Vostok.Clusterclient.Model;
+using Vostok.Logging;
 
-namespace Vstk.Clusterclient.Modules
+namespace Vostok.Clusterclient.Modules
 {
     /// <summary>
     /// A module which limits replicas used per request to maintain sliding 'used-replicas/requests' ratio below given threshold.

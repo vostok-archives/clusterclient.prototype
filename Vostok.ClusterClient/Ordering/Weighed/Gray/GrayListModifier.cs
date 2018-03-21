@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using JetBrains.Annotations;
-using Vstk.Clusterclient.Helpers;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Ordering.Storage;
-using Vstk.Logging;
-using Vstk.Logging.Logs;
+using Vostok.Clusterclient.Helpers;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Ordering.Storage;
+using Vostok.Logging;
+using Vostok.Logging.Logs;
 
-namespace Vstk.Clusterclient.Ordering.Weighed.Gray
+namespace Vostok.Clusterclient.Ordering.Weighed.Gray
 {
     /// <summary>
     /// <para>Represents a modifier which keeps a list of bad ("gray") replicas. Replicas which are not in this list are called "white".</para>

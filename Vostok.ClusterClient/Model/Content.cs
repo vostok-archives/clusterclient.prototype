@@ -3,7 +3,7 @@ using System.IO;
 using System.Text;
 using JetBrains.Annotations;
 
-namespace Vstk.Clusterclient.Model
+namespace Vostok.Clusterclient.Model
 {
     /// <summary>
     /// Represents a buffered in-memory content transferred to/from server during request execution.

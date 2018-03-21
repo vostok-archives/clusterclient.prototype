@@ -2,15 +2,15 @@
 using FluentAssertions;
 using NSubstitute;
 using NUnit.Framework;
-using Vstk.Clusterclient;
-using Vstk.Clusterclient.Topology;
-using Vstk.Clusterclient.Transforms;
-using Vstk.Clusterclient.Transport;
-using Vstk.ClusterClient.Tests.Helpers;
-using Vstk.Logging;
-using Vstk.Logging.Logs;
+using Vostok.Clusterclient;
+using Vostok.Clusterclient.Topology;
+using Vostok.Clusterclient.Transforms;
+using Vostok.Clusterclient.Transport;
+using Vostok.ClusterClient.Tests.Helpers;
+using Vostok.Logging;
+using Vostok.Logging.Logs;
 
-namespace Vstk.ClusterClient.Tests.Core
+namespace Vostok.ClusterClient.Tests.Core
 {
     public class ClusterClient_Tests
     {

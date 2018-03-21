@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using JetBrains.Annotations;
-using Vstk.Clusterclient.Model;
+using Vostok.Clusterclient.Model;
 
-namespace Vstk.Clusterclient.Criteria
+namespace Vostok.Clusterclient.Criteria
 {
     internal interface IResponseClassifier
     {

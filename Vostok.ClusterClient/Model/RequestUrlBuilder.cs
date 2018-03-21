@@ -4,10 +4,10 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading;
 using JetBrains.Annotations;
-using Vstk.Clusterclient.Helpers;
-using Vstk.Commons.Collections;
+using Vostok.Clusterclient.Helpers;
+using Vostok.Commons.Collections;
 
-namespace Vstk.Clusterclient.Model
+namespace Vostok.Clusterclient.Model
 {
     /// <summary>
     /// <para>Represents an efficient builder of request urls.</para>

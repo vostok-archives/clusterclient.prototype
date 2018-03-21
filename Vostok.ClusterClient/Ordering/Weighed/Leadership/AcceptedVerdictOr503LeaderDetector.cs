@@ -1,6 +1,6 @@
-﻿using Vstk.Clusterclient.Model;
+﻿using Vostok.Clusterclient.Model;
 
-namespace Vstk.Clusterclient.Ordering.Weighed.Leadership
+namespace Vostok.Clusterclient.Ordering.Weighed.Leadership
 {
     /// <summary>
     /// Represents a leader result detector which accepts any result with <see cref="ResponseVerdict.Accept"/> verdict or <see cref="ResponseCode.ServiceUnavailable"/> response code.

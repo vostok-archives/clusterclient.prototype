@@ -1,7 +1,7 @@
 ﻿using JetBrains.Annotations;
-using Vstk.Clusterclient.Model;
+using Vostok.Clusterclient.Model;
 
-namespace Vstk.Clusterclient.Ordering.Weighed.Leadership
+namespace Vostok.Clusterclient.Ordering.Weighed.Leadership
 {
     public interface ILeaderResultDetector
     {

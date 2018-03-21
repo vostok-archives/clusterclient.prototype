@@ -1,7 +1,7 @@
 ﻿using JetBrains.Annotations;
-using Vstk.Clusterclient.Model;
+using Vostok.Clusterclient.Model;
 
-namespace Vstk.Clusterclient.Transforms
+namespace Vostok.Clusterclient.Transforms
 {
     /// <summary>
     /// <para>Represents a transform used to modify request before it gets sent.</para>

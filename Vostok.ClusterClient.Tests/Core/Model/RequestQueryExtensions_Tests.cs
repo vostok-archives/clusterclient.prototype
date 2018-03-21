@@ -1,8 +1,8 @@
 ﻿using FluentAssertions;
 using NUnit.Framework;
-using Vstk.Clusterclient.Model;
+using Vostok.Clusterclient.Model;
 
-namespace Vstk.ClusterClient.Tests.Core.Model
+namespace Vostok.ClusterClient.Tests.Core.Model
 {
     public class RequestQueryExtensions_Tests
     {

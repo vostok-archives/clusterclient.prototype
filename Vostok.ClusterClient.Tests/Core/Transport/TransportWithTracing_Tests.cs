@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 using FluentAssertions;
 using NSubstitute;
 using NUnit.Framework;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Transport;
-using Vstk.Tracing;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Transport;
+using Vostok.Tracing;
 
-namespace Vstk.ClusterClient.Tests.Core.Transport
+namespace Vostok.ClusterClient.Tests.Core.Transport
 {
     public class TransportWithTracing_Tests
     {
@@ -29,7 +29,7 @@ namespace Vstk.ClusterClient.Tests.Core.Transport
         [Test]
         public async Task SendAsync_should_create_trace()
         {
-            var request = new Request("POST", new Uri("http://vstk/process?p=p1"),new Content(new byte[10]));
+            var request = new Request("POST", new Uri("http://vostok/process?p=p1"),new Content(new byte[10]));
             var timeout = TimeSpan.FromHours(1);
             var cancellationToken = new CancellationToken();
             var response = new Response(ResponseCode.BadRequest);
@@ -38,7 +38,7 @@ namespace Vstk.ClusterClient.Tests.Core.Transport
             {
                 [TracingAnnotationNames.Kind] = "http-client",
                 [TracingAnnotationNames.Component] = "cluster-client",
-                [TracingAnnotationNames.HttpUrl] = "http://vstk/process",
+                [TracingAnnotationNames.HttpUrl] = "http://vostok/process",
                 [TracingAnnotationNames.HttpMethod] = "POST",
                 [TracingAnnotationNames.HttpRequestContentLength] = "10",
                 [TracingAnnotationNames.HttpResponseContentLength] = "0",

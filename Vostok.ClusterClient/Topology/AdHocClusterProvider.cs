@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Vstk.Clusterclient.Topology
+namespace Vostok.Clusterclient.Topology
 {
     /// <summary>
     /// Represents a cluster provider which uses an external delegate to provide replica urls.

@@ -2,7 +2,7 @@ using System;
 using System.Collections.Concurrent;
 using JetBrains.Annotations;
 
-namespace Vstk.Clusterclient.Ordering.Storage
+namespace Vostok.Clusterclient.Ordering.Storage
 {
     /// <summary>
     /// Represents an access layer for arbitrarily typed key-value replica information storages used by <see cref="IReplicaOrdering"/> and <see cref="Weighed.IReplicaWeightModifier"/> implementations.

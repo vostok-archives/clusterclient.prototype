@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 using JetBrains.Annotations;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Sending;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Sending;
 
-namespace Vstk.Clusterclient.Strategies
+namespace Vostok.Clusterclient.Strategies
 {
     public interface IRequestStrategy
     {

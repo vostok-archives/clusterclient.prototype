@@ -1,13 +1,13 @@
 ﻿using FluentAssertions;
 using NSubstitute;
 using NUnit.Framework;
-using Vstk.Clusterclient;
-using Vstk.Clusterclient.Criteria;
-using Vstk.Clusterclient.Modules;
-using Vstk.Clusterclient.Transforms;
-using Vstk.Logging.Logs;
+using Vostok.Clusterclient;
+using Vostok.Clusterclient.Criteria;
+using Vostok.Clusterclient.Modules;
+using Vostok.Clusterclient.Transforms;
+using Vostok.Logging.Logs;
 
-namespace Vstk.ClusterClient.Tests.Core
+namespace Vostok.ClusterClient.Tests.Core
 {
     public class ClusterClientConfigurationExtensions_Tests
     {

@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using FluentAssertions;
 using NSubstitute;
 using NUnit.Framework;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Ordering.Storage;
-using Vstk.Clusterclient.Ordering.Weighed;
-using Vstk.ClusterClient.Tests.Helpers;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Ordering.Storage;
+using Vostok.Clusterclient.Ordering.Weighed;
+using Vostok.ClusterClient.Tests.Helpers;
 
-namespace Vstk.ClusterClient.Tests.Core.Ordering.Weighed
+namespace Vostok.ClusterClient.Tests.Core.Ordering.Weighed
 {
     public class ReplicaWeightCalculator_Tests
     {

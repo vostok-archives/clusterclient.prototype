@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Vstk.Clusterclient.Ordering.Weighed.Adaptive
+namespace Vostok.Clusterclient.Ordering.Weighed.Adaptive
 {
     public struct HealthWithDecay
     {

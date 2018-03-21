@@ -1,22 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 using JetBrains.Annotations;
-using Vstk.Clusterclient.Criteria;
-using Vstk.Clusterclient.Misc;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Modules;
-using Vstk.Clusterclient.Ordering;
-using Vstk.Clusterclient.Ordering.Storage;
-using Vstk.Clusterclient.Ordering.Weighed;
-using Vstk.Clusterclient.Retry;
-using Vstk.Clusterclient.Strategies;
-using Vstk.Clusterclient.Topology;
-using Vstk.Clusterclient.Transforms;
-using Vstk.Clusterclient.Transport;
-using Vstk.Commons.Model;
-using Vstk.Logging;
+using Vostok.Clusterclient.Criteria;
+using Vostok.Clusterclient.Misc;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Modules;
+using Vostok.Clusterclient.Ordering;
+using Vostok.Clusterclient.Ordering.Storage;
+using Vostok.Clusterclient.Ordering.Weighed;
+using Vostok.Clusterclient.Retry;
+using Vostok.Clusterclient.Strategies;
+using Vostok.Clusterclient.Topology;
+using Vostok.Clusterclient.Transforms;
+using Vostok.Clusterclient.Transport;
+using Vostok.Commons.Model;
+using Vostok.Logging;
 
-namespace Vstk.Clusterclient
+namespace Vostok.Clusterclient
 {
     /// <summary>
     /// <para>Represents a configuration of <see cref="ClusterClient"/> instance which must be filled during client construction.</para>

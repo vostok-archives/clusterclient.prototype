@@ -1,7 +1,7 @@
 ﻿using System;
-using Vstk.Logging;
+using Vostok.Logging;
 
-namespace Vstk.Clusterclient.Ordering.Weighed.Adaptive
+namespace Vostok.Clusterclient.Ordering.Weighed.Adaptive
 {
     /// <summary>
     /// <para>An implementation of adaptive health which uses numbers in <c>(0; 1]</c> range as health values. Default health value is equal to 1.</para>

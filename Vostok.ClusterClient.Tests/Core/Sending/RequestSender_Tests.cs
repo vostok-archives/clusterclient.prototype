@@ -5,18 +5,18 @@ using FluentAssertions;
 using NSubstitute;
 using NSubstitute.ExceptionExtensions;
 using NUnit.Framework;
-using Vstk.Clusterclient;
-using Vstk.Clusterclient.Criteria;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Ordering;
-using Vstk.Clusterclient.Ordering.Storage;
-using Vstk.Clusterclient.Sending;
-using Vstk.Clusterclient.Transport;
-using Vstk.ClusterClient.Tests.Helpers;
-using Vstk.Logging;
-using Vstk.Logging.Logs;
+using Vostok.Clusterclient;
+using Vostok.Clusterclient.Criteria;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Ordering;
+using Vostok.Clusterclient.Ordering.Storage;
+using Vostok.Clusterclient.Sending;
+using Vostok.Clusterclient.Transport;
+using Vostok.ClusterClient.Tests.Helpers;
+using Vostok.Logging;
+using Vostok.Logging.Logs;
 
-namespace Vstk.ClusterClient.Tests.Core.Sending
+namespace Vostok.ClusterClient.Tests.Core.Sending
 {
     public class RequestSender_Tests
     {

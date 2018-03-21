@@ -1,7 +1,7 @@
 ﻿using System;
-using Vstk.Clusterclient.Model;
+using Vostok.Clusterclient.Model;
 
-namespace Vstk.Clusterclient.Ordering.Weighed.Adaptive
+namespace Vostok.Clusterclient.Ordering.Weighed.Adaptive
 {
     public sealed class TuningPolicies : IAdaptiveHealthTuningPolicy
     {

@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Vstk.Clusterclient.Strategies
+namespace Vostok.Clusterclient.Strategies
 {
     internal class ForkingDelaysPlanner : IForkingDelaysPlanner
     {

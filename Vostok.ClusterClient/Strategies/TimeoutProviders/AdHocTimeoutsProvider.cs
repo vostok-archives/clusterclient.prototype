@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Linq;
 using JetBrains.Annotations;
-using Vstk.Clusterclient.Model;
-using Vstk.Commons.Utilities;
+using Vostok.Clusterclient.Model;
+using Vostok.Commons.Utilities;
 
-namespace Vstk.Clusterclient.Strategies.TimeoutProviders
+namespace Vostok.Clusterclient.Strategies.TimeoutProviders
 {
     /// <summary>
     /// Represents a timeout provider which issues timeouts using a fixed set of external delegates.

@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using JetBrains.Annotations;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Ordering.Storage;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Ordering.Storage;
 
-namespace Vstk.Clusterclient.Ordering.Weighed
+namespace Vostok.Clusterclient.Ordering.Weighed
 {
     /// <summary>
     /// <para>Represents a modifier used to manipulate replica weights in <see cref="WeighedReplicaOrdering"/>.</para>

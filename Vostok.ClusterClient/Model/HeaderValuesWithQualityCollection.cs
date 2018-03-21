@@ -5,7 +5,7 @@ using System.Globalization;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace Vstk.Clusterclient.Model
+namespace Vostok.Clusterclient.Model
 {
     public class HeaderValuesWithQualityCollection: IEnumerable<HeaderValueWithQuality>
     {

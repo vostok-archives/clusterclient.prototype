@@ -1,7 +1,7 @@
 ﻿using JetBrains.Annotations;
-using Vstk.Clusterclient.Model;
+using Vostok.Clusterclient.Model;
 
-namespace Vstk.Clusterclient.Ordering.Weighed.Adaptive
+namespace Vostok.Clusterclient.Ordering.Weighed.Adaptive
 {
     /// <summary>
     /// Represents a policy used to take different action on replica health values based on request results.

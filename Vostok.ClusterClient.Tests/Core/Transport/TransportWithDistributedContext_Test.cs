@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 using FluentAssertions;
 using NSubstitute;
 using NUnit.Framework;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Transport;
-using Vstk.Flow;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Transport;
+using Vostok.Flow;
 
-namespace Vstk.ClusterClient.Tests.Core.Transport
+namespace Vostok.ClusterClient.Tests.Core.Transport
 {
     public class TransportWithDistributedContext_Test
     {

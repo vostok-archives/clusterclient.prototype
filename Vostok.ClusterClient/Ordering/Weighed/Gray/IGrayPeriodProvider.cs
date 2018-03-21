@@ -1,7 +1,7 @@
 ﻿using System;
 using JetBrains.Annotations;
 
-namespace Vstk.Clusterclient.Ordering.Weighed.Gray
+namespace Vostok.Clusterclient.Ordering.Weighed.Gray
 {
     public interface IGrayPeriodProvider
     {

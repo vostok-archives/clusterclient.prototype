@@ -3,11 +3,11 @@ using System.Threading;
 using FluentAssertions;
 using NSubstitute;
 using NUnit.Framework;
-using Vstk.Clusterclient;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Transport;
+using Vostok.Clusterclient;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Transport;
 
-namespace Vstk.ClusterClient.Tests.Core.Transport
+namespace Vostok.ClusterClient.Tests.Core.Transport
 {
     public class TransportWithAuxiliaryHeaders_Tests
     {

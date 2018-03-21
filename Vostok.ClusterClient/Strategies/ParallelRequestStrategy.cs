@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Sending;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Sending;
 
-namespace Vstk.Clusterclient.Strategies
+namespace Vostok.Clusterclient.Strategies
 {
     /// <summary>
     /// Represents a strategy which maintains several parallel requests right from the start and stops at any result with <see cref="ResponseVerdict.Accept"/> verdict.

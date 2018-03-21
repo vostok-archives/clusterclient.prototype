@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Sending;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Sending;
 
-namespace Vstk.Clusterclient.Strategies
+namespace Vostok.Clusterclient.Strategies
 {
     /// <summary>
     /// Represents a strategy which only sends a request to a single, first replica, using all available time budget.

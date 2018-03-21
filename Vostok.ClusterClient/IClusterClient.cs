@@ -2,11 +2,11 @@
 using System.Threading;
 using System.Threading.Tasks;
 using JetBrains.Annotations;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Strategies;
-using Vstk.Commons.Model;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Strategies;
+using Vostok.Commons.Model;
 
-namespace Vstk.Clusterclient
+namespace Vostok.Clusterclient
 {
     public interface IClusterClient
     {

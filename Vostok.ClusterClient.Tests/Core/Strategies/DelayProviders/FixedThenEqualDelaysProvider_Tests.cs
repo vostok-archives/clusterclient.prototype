@@ -1,10 +1,10 @@
 ﻿using FluentAssertions;
 using NUnit.Framework;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Strategies.DelayProviders;
-using Vstk.ClusterClient.Tests.Helpers;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Strategies.DelayProviders;
+using Vostok.ClusterClient.Tests.Helpers;
 
-namespace Vstk.ClusterClient.Tests.Core.Strategies.DelayProviders
+namespace Vostok.ClusterClient.Tests.Core.Strategies.DelayProviders
 {
     public class FixedThenEqualDelaysProvider_Tests
     {

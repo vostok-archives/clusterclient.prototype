@@ -14,9 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Vstk.ClusterClient\Vstk.ClusterClient.csproj" />
-    <Reference Include="Vstk.Core">
-      <HintPath>..\..\vstk.core\Vstk.Core\bin\Release\netstandard2.0\Vstk.Core.dll</HintPath>
+    <ProjectReference Include="..\Vostok.ClusterClient\Vostok.ClusterClient.csproj" />
+    <Reference Include="Vostok.Core">
+      <HintPath>..\..\vostok.core\Vostok.Core\bin\Release\netstandard2.0\Vostok.Core.dll</HintPath>
     </Reference>
   </ItemGroup>
 

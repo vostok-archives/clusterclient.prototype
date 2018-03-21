@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Vstk.ClusterClient.Tests.Helpers
+namespace Vostok.ClusterClient.Tests.Helpers
 {
     internal static class ExceptionAssertions
     {

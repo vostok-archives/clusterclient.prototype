@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Linq;
 using System.Threading.Tasks;
-using Vstk.Clusterclient.Misc;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Ordering;
-using Vstk.Clusterclient.Ordering.Storage;
-using Vstk.Clusterclient.Sending;
-using Vstk.Clusterclient.Topology;
-using Vstk.Logging;
+using Vostok.Clusterclient.Misc;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Ordering;
+using Vostok.Clusterclient.Ordering.Storage;
+using Vostok.Clusterclient.Sending;
+using Vostok.Clusterclient.Topology;
+using Vostok.Logging;
 
-namespace Vstk.Clusterclient.Modules
+namespace Vostok.Clusterclient.Modules
 {
     internal class RequestExecutionModule : IRequestModule
     {

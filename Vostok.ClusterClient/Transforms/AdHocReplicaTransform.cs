@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Vstk.Clusterclient.Transforms
+namespace Vostok.Clusterclient.Transforms
 {
     /// <summary>
     /// Represents a replica transform which uses external delegate to modify urls.

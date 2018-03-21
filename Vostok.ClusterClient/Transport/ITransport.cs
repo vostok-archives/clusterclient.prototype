@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Vstk.Clusterclient.Model;
+using Vostok.Clusterclient.Model;
 
-namespace Vstk.Clusterclient.Transport
+namespace Vostok.Clusterclient.Transport
 {
     /// <summary>
     /// Represents an HTTP client used as a transport for cluster communication.

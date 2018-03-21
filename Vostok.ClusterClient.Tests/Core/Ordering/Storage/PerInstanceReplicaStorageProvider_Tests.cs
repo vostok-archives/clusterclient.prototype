@@ -1,8 +1,8 @@
 using FluentAssertions;
 using NUnit.Framework;
-using Vstk.Clusterclient.Ordering.Storage;
+using Vostok.Clusterclient.Ordering.Storage;
 
-namespace Vstk.ClusterClient.Tests.Core.Ordering.Storage
+namespace Vostok.ClusterClient.Tests.Core.Ordering.Storage
 {
     public class PerInstanceReplicaStorageProvider_Tests
     {

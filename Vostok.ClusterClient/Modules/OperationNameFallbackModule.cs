@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Vstk.Clusterclient.Model;
-using Vstk.Commons.Extensions.Uri;
-using Vstk.Flow;
-using Vstk.Tracing;
+using Vostok.Clusterclient.Model;
+using Vostok.Commons.Extensions.Uri;
+using Vostok.Flow;
+using Vostok.Tracing;
 
-namespace Vstk.Clusterclient.Modules
+namespace Vostok.Clusterclient.Modules
 {
     internal class OperationNameFallbackModule : IRequestModule
     {

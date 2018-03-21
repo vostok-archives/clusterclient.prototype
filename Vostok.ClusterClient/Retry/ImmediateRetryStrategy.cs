@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Vstk.Clusterclient.Retry
+namespace Vostok.Clusterclient.Retry
 {
     /// <summary>
     /// Represents a retry strategy with fixed attempts count and a zero delay between attempts.

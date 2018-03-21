@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Vstk.Clusterclient.Model;
+using Vostok.Clusterclient.Model;
 
-namespace Vstk.Clusterclient.Retry
+namespace Vostok.Clusterclient.Retry
 {
     /// <summary>
     /// Represents a policy which never chooses to retry cluster communication.

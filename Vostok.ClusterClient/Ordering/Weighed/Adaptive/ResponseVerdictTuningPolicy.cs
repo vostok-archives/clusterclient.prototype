@@ -1,6 +1,6 @@
-﻿using Vstk.Clusterclient.Model;
+﻿using Vostok.Clusterclient.Model;
 
-namespace Vstk.Clusterclient.Ordering.Weighed.Adaptive
+namespace Vostok.Clusterclient.Ordering.Weighed.Adaptive
 {
     /// <summary>
     /// <para>Represents a tuning policy which selects action based on replica's response verdict:</para>

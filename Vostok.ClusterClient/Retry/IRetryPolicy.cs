@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using JetBrains.Annotations;
-using Vstk.Clusterclient.Model;
+using Vostok.Clusterclient.Model;
 
-namespace Vstk.Clusterclient.Retry
+namespace Vostok.Clusterclient.Retry
 {
     /// <summary>
     /// <para>Represents a policy which determines whether it's needed to retry cluster communication based on current attempt results.</para>

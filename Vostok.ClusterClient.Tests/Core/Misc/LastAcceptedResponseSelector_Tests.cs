@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using FluentAssertions;
 using NUnit.Framework;
-using Vstk.Clusterclient.Misc;
-using Vstk.Clusterclient.Model;
+using Vostok.Clusterclient.Misc;
+using Vostok.Clusterclient.Model;
 
-namespace Vstk.ClusterClient.Tests.Core.Misc
+namespace Vostok.ClusterClient.Tests.Core.Misc
 {
     public class LastAcceptedResponseSelector_Tests
     {

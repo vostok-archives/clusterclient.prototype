@@ -4,13 +4,13 @@ using System.Collections.Generic;
 using FluentAssertions;
 using NSubstitute;
 using NUnit.Framework;
-using Vstk.Clusterclient.Helpers;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Ordering.Storage;
-using Vstk.Clusterclient.Ordering.Weighed.Gray;
-using Vstk.Logging.Logs;
+using Vostok.Clusterclient.Helpers;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Ordering.Storage;
+using Vostok.Clusterclient.Ordering.Weighed.Gray;
+using Vostok.Logging.Logs;
 
-namespace Vstk.ClusterClient.Tests.Core.Ordering.Weighed.Gray
+namespace Vostok.ClusterClient.Tests.Core.Ordering.Weighed.Gray
 {
     public class GrayListModifier_Tests
     {

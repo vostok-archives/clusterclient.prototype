@@ -1,7 +1,7 @@
 ﻿using System;
-using Vstk.Commons.Utilities;
+using Vostok.Commons.Utilities;
 
-namespace Vstk.Clusterclient.Retry
+namespace Vostok.Clusterclient.Retry
 {
     /// <summary>
     /// Represents a retry strategy with fixed attempts count and a linearly increasing delay between attempts.

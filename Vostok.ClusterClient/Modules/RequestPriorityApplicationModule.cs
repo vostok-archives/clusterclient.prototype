@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Vstk.Clusterclient.Model;
-using Vstk.Commons.Model;
+using Vostok.Clusterclient.Model;
+using Vostok.Commons.Model;
 
-namespace Vstk.Clusterclient.Modules
+namespace Vostok.Clusterclient.Modules
 {
     internal class RequestPriorityApplicationModule : IRequestModule
     {

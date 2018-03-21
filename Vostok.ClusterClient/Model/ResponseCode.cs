@@ -1,4 +1,4 @@
-﻿namespace Vstk.Clusterclient.Model
+﻿namespace Vostok.Clusterclient.Model
 {
     /// <summary>
     /// <para>Represents an http response code. All members have correct numeric values.</para>

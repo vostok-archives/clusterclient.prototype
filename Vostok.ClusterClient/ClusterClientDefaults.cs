@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using Vstk.Clusterclient.Criteria;
-using Vstk.Clusterclient.Misc;
-using Vstk.Clusterclient.Ordering;
-using Vstk.Clusterclient.Ordering.Storage;
-using Vstk.Clusterclient.Ordering.Weighed;
-using Vstk.Clusterclient.Retry;
-using Vstk.Clusterclient.Strategies;
-using Vstk.Logging;
+using Vostok.Clusterclient.Criteria;
+using Vostok.Clusterclient.Misc;
+using Vostok.Clusterclient.Ordering;
+using Vostok.Clusterclient.Ordering.Storage;
+using Vostok.Clusterclient.Ordering.Weighed;
+using Vostok.Clusterclient.Retry;
+using Vostok.Clusterclient.Strategies;
+using Vostok.Logging;
 
-namespace Vstk.Clusterclient
+namespace Vostok.Clusterclient
 {
     public static class ClusterClientDefaults
     {

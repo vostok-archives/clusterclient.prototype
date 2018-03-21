@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Vstk.Clusterclient.Model;
-using Vstk.Tracing;
-using Vstk.Commons.Extensions.Uri;
+using Vostok.Clusterclient.Model;
+using Vostok.Tracing;
+using Vostok.Commons.Extensions.Uri;
 
-namespace Vstk.Clusterclient.Transport
+namespace Vostok.Clusterclient.Transport
 {
     internal class TransportWithTracing : ITransport
     {

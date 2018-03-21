@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using JetBrains.Annotations;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Ordering.Storage;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Ordering.Storage;
 
-namespace Vstk.Clusterclient.Ordering
+namespace Vostok.Clusterclient.Ordering
 {
     public interface IReplicaOrdering
     {

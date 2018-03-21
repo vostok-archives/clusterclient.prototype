@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Diagnostics;
-using Vstk.Commons.Utilities;
+using Vostok.Commons.Utilities;
 
-namespace Vstk.Clusterclient.Model
+namespace Vostok.Clusterclient.Model
 {
     public class RequestTimeBudget : IRequestTimeBudget
     {

@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Vstk.Clusterclient.Helpers;
-using Vstk.Clusterclient.Model;
-using Vstk.Flow;
+using Vostok.Clusterclient.Helpers;
+using Vostok.Clusterclient.Model;
+using Vostok.Flow;
 
-namespace Vstk.Clusterclient.Transport
+namespace Vostok.Clusterclient.Transport
 {
     internal class TransportWithDistributedContext : ITransport
     {

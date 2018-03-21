@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Vstk.Logging;
+using Vostok.Logging;
 
-namespace Vstk.Clusterclient.Ordering.Weighed
+namespace Vostok.Clusterclient.Ordering.Weighed
 {
     internal class WeighedReplicaOrderingBuilder : IWeighedReplicaOrderingBuilder
     {

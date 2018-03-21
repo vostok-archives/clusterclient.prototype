@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 using JetBrains.Annotations;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Sending;
-using Vstk.Clusterclient.Strategies.TimeoutProviders;
-using Vstk.Commons.Utilities;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Sending;
+using Vostok.Clusterclient.Strategies.TimeoutProviders;
+using Vostok.Commons.Utilities;
 
-namespace Vstk.Clusterclient.Strategies
+namespace Vostok.Clusterclient.Strategies
 {
     /// <summary>
     /// <para>Represents a strategy which traverses replicas sequentially, does not use parallelism and stops at any result with <see cref="ResponseVerdict.Accept"/> verdict.</para>

@@ -1,18 +1,18 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Modules;
-using Vstk.Clusterclient.Ordering.Storage;
-using Vstk.Clusterclient.Strategies;
-using Vstk.Clusterclient.Topology;
-using Vstk.Clusterclient.Transforms;
-using Vstk.Clusterclient.Transport;
-using Vstk.Commons.Model;
-using Vstk.Logging;
-using Vstk.Logging.Logs;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Modules;
+using Vostok.Clusterclient.Ordering.Storage;
+using Vostok.Clusterclient.Strategies;
+using Vostok.Clusterclient.Topology;
+using Vostok.Clusterclient.Transforms;
+using Vostok.Clusterclient.Transport;
+using Vostok.Commons.Model;
+using Vostok.Logging;
+using Vostok.Logging.Logs;
 
-namespace Vstk.Clusterclient
+namespace Vostok.Clusterclient
 {
     /// <summary>
     /// <para>Represents a client used to send HTTP requests to a cluster of replicas.</para>

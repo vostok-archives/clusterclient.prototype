@@ -1,6 +1,6 @@
-﻿using Vstk.Clusterclient.Model;
+﻿using Vostok.Clusterclient.Model;
 
-namespace Vstk.Clusterclient.Criteria
+namespace Vostok.Clusterclient.Criteria
 {
     /// <summary>
     /// Represents a criterion which rejects redirection (3xx) responses except for <see cref="ResponseCode.NotModified"/> code.

@@ -1,6 +1,6 @@
-﻿using Vstk.Clusterclient.Model;
+﻿using Vostok.Clusterclient.Model;
 
-namespace Vstk.Clusterclient.Criteria
+namespace Vostok.Clusterclient.Criteria
 {
     /// <summary>
     /// <para>Represents a criterion which rejects responses with some of the server error codes (see <see cref="ResponseCodeExtensions.IsServerError"/>).</para>

@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 using JetBrains.Annotations;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Sending;
-using Vstk.Clusterclient.Strategies.DelayProviders;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Sending;
+using Vostok.Clusterclient.Strategies.DelayProviders;
 
-namespace Vstk.Clusterclient.Strategies
+namespace Vostok.Clusterclient.Strategies
 {
     /// <summary>
     /// <para>Represents a strategy which starts with one request, but can increase parallelism ("fork") when there's no response for long enough.</para>

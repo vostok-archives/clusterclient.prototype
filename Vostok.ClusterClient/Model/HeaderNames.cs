@@ -1,4 +1,4 @@
-﻿namespace Vstk.Clusterclient.Model
+﻿namespace Vostok.Clusterclient.Model
 {
     /// <summary>
     /// <para>Contains the names of well-known common HTTP headers.</para>

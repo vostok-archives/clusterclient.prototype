@@ -1,7 +1,7 @@
 ﻿using System.Collections.Concurrent;
 using System.Collections.Generic;
 
-namespace Vstk.Clusterclient.Helpers
+namespace Vostok.Clusterclient.Helpers
 {
     internal static class ConcurrentDictionaryExtensions
     {

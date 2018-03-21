@@ -1,4 +1,4 @@
-﻿namespace Vstk.Clusterclient.Strategies.DelayProviders
+﻿namespace Vostok.Clusterclient.Strategies.DelayProviders
 {
     /// <summary>
     /// Represents a behaviour in case when provided delay values for <see cref="FixedDelaysProvider"/> or <see cref="AdHocDelaysProvider"/> are exhausted.

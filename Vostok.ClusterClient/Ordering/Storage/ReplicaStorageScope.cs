@@ -1,4 +1,4 @@
-namespace Vstk.Clusterclient.Ordering.Storage
+namespace Vostok.Clusterclient.Ordering.Storage
 {
     /// <summary>
     /// <para>Represents a high-level isolation scope of replica information storage.</para>

@@ -2,13 +2,13 @@
 using FluentAssertions;
 using NSubstitute;
 using NUnit.Framework;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Modules;
-using Vstk.ClusterClient.Tests.Helpers;
-using Vstk.Logging;
-using Vstk.Logging.Logs;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Modules;
+using Vostok.ClusterClient.Tests.Helpers;
+using Vostok.Logging;
+using Vostok.Logging.Logs;
 
-namespace Vstk.ClusterClient.Tests.Core.Modules
+namespace Vostok.ClusterClient.Tests.Core.Modules
 {
     public class TimeoutValidationModule_Tests
     {

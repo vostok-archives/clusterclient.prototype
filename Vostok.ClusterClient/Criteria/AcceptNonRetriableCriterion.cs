@@ -1,6 +1,6 @@
-﻿using Vstk.Clusterclient.Model;
+﻿using Vostok.Clusterclient.Model;
 
-namespace Vstk.Clusterclient.Criteria
+namespace Vostok.Clusterclient.Criteria
 {
     /// <summary>
     /// Represents a criterion which accepts any response with <see cref="HeaderNames.XKonturDontRetry"/> header.

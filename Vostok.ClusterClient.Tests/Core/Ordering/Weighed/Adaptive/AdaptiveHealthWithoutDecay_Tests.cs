@@ -1,10 +1,10 @@
 ﻿using System;
 using FluentAssertions;
 using NUnit.Framework;
-using Vstk.Clusterclient.Ordering.Weighed.Adaptive;
-using Vstk.ClusterClient.Tests.Helpers;
+using Vostok.Clusterclient.Ordering.Weighed.Adaptive;
+using Vostok.ClusterClient.Tests.Helpers;
 
-namespace Vstk.ClusterClient.Tests.Core.Ordering.Weighed.Adaptive
+namespace Vostok.ClusterClient.Tests.Core.Ordering.Weighed.Adaptive
 {
     public class AdaptiveHealthWithoutDecay_Tests
     {

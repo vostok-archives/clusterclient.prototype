@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 using FluentAssertions;
 using NSubstitute;
 using NUnit.Framework;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Sending;
-using Vstk.Clusterclient.Strategies;
-using Vstk.ClusterClient.Tests.Helpers;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Sending;
+using Vostok.Clusterclient.Strategies;
+using Vostok.ClusterClient.Tests.Helpers;
 
 #pragma warning disable 4014
 
-namespace Vstk.ClusterClient.Tests.Core.Strategies
+namespace Vostok.ClusterClient.Tests.Core.Strategies
 {
     public class ParallelRequestStrategy_Tests
     {

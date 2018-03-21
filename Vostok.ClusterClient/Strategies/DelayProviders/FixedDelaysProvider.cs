@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
 using JetBrains.Annotations;
-using Vstk.Clusterclient.Model;
+using Vostok.Clusterclient.Model;
 
-namespace Vstk.Clusterclient.Strategies.DelayProviders
+namespace Vostok.Clusterclient.Strategies.DelayProviders
 {
     /// <summary>
     /// Represents a delay provider which issues delays from a fixed set of values.

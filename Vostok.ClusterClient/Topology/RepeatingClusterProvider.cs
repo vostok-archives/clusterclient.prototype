@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading;
 
-namespace Vstk.Clusterclient.Topology
+namespace Vostok.Clusterclient.Topology
 {
     internal class RepeatingClusterProvider : IClusterProvider
     {

@@ -1,4 +1,4 @@
-﻿namespace Vstk.Clusterclient.Model
+﻿namespace Vostok.Clusterclient.Model
 {
     public static class ResponseCodeExtensions
     {

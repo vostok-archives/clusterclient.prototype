@@ -1,10 +1,10 @@
 ﻿using System;
 using FluentAssertions;
 using NUnit.Framework;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Ordering.Weighed.Leadership;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Ordering.Weighed.Leadership;
 
-namespace Vstk.ClusterClient.Tests.Core.Ordering.Weighed.Leadership
+namespace Vostok.ClusterClient.Tests.Core.Ordering.Weighed.Leadership
 {
     public class AcceptedVerdictLeaderDetector_Tests
     {

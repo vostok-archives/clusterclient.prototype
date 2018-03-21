@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using FluentAssertions;
 using NSubstitute;
 using NUnit.Framework;
-using Vstk.Clusterclient.Topology;
+using Vostok.Clusterclient.Topology;
 
-namespace Vstk.ClusterClient.Tests.Core.Topology
+namespace Vostok.ClusterClient.Tests.Core.Topology
 {
     public class RepeatingClusterProvider_Tests
     {

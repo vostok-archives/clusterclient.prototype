@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using FluentAssertions;
 using NUnit.Framework;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Retry;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Retry;
 
-namespace Vstk.ClusterClient.Tests.Core.Retry
+namespace Vostok.ClusterClient.Tests.Core.Retry
 {
     public class NeverRetryPolicy_Tests
     {

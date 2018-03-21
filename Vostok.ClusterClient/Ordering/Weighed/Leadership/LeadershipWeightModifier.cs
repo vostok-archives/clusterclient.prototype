@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Ordering.Storage;
-using Vstk.Logging;
-using Vstk.Logging.Logs;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Ordering.Storage;
+using Vostok.Logging;
+using Vostok.Logging.Logs;
 
-namespace Vstk.Clusterclient.Ordering.Weighed.Leadership
+namespace Vostok.Clusterclient.Ordering.Weighed.Leadership
 {
     /// <summary>
     /// <para>Represents a modifier which divides all replicas into two categories: leader and reservists.</para>

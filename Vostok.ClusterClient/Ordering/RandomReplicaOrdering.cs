@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using Vstk.Clusterclient.Ordering.Weighed;
+using Vostok.Clusterclient.Ordering.Weighed;
 
-namespace Vstk.Clusterclient.Ordering
+namespace Vostok.Clusterclient.Ordering
 {
     /// <summary>
     /// Represents an ordering which returns replicas in random order.

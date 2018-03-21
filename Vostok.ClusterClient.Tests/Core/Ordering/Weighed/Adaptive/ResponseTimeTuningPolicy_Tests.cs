@@ -1,10 +1,10 @@
 ﻿using System;
 using FluentAssertions;
 using NUnit.Framework;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Ordering.Weighed.Adaptive;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Ordering.Weighed.Adaptive;
 
-namespace Vstk.ClusterClient.Tests.Core.Ordering.Weighed.Adaptive
+namespace Vostok.ClusterClient.Tests.Core.Ordering.Weighed.Adaptive
 {
     public class ResponseTimeTuningPolicy_Tests
     {

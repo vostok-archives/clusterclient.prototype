@@ -2,20 +2,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <RootNamespace>Vstk.Clusterclient</RootNamespace>
+    <RootNamespace>Vostok.Clusterclient</RootNamespace>
     <Authors>Vostok team</Authors>
     <Company>SKB Kontur</Company>
     <Product>Vostok</Product>
     <Copyright>Copyright © SKB Kontur 2017-2018</Copyright>
-    <RepositoryUrl>https://github.com/vstk/vstk.clusterclient</RepositoryUrl>
-    <PackageLicenseUrl>https://github.com/vstk/vstk.clusterclient/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/vostok/vostok.clusterclient</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/vostok/vostok.clusterclient/blob/master/LICENSE</PackageLicenseUrl>
     <Description>ClusterClient library enables developers to build resilient and efficient clients for HTTP microservices. http://vostok.tools/</Description>
-    <PackageTags>vstk clusterclient</PackageTags>
+    <PackageTags>vostok clusterclient</PackageTags>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Vstk.Core">
+    <Reference Include="Vostok.Core">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\vstk.core\Vstk.Core\bin\Release\netstandard2.0\Vstk.Core.dll</HintPath>
+      <HintPath>..\..\vostok.core\Vostok.Core\bin\Release\netstandard2.0\Vostok.Core.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>

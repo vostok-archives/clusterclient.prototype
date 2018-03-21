@@ -4,11 +4,11 @@ using System.Linq;
 using FluentAssertions;
 using NSubstitute;
 using NUnit.Framework;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Ordering.Storage;
-using Vstk.Clusterclient.Ordering.Weighed;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Ordering.Storage;
+using Vostok.Clusterclient.Ordering.Weighed;
 
-namespace Vstk.ClusterClient.Tests.Core.Ordering.Weighed
+namespace Vostok.ClusterClient.Tests.Core.Ordering.Weighed
 {
     public class WeighedReplicaOrdering_Tests
     {

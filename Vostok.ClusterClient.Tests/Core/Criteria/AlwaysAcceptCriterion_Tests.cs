@@ -2,10 +2,10 @@
 using System.Linq;
 using FluentAssertions;
 using NUnit.Framework;
-using Vstk.Clusterclient.Criteria;
-using Vstk.Clusterclient.Model;
+using Vostok.Clusterclient.Criteria;
+using Vostok.Clusterclient.Model;
 
-namespace Vstk.ClusterClient.Tests.Core.Criteria
+namespace Vostok.ClusterClient.Tests.Core.Criteria
 {
     public class AlwaysAcceptCriterion_Tests
     {

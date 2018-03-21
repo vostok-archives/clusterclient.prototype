@@ -4,12 +4,12 @@ using System.Threading.Tasks;
 using FluentAssertions;
 using NSubstitute;
 using NUnit.Framework;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Modules;
-using Vstk.Clusterclient.Strategies;
-using Vstk.Tracing;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Modules;
+using Vostok.Clusterclient.Strategies;
+using Vostok.Tracing;
 
-namespace Vstk.ClusterClient.Tests.Core.Modules
+namespace Vostok.ClusterClient.Tests.Core.Modules
 {
     public class TracingModule_Tests
     {
@@ -28,7 +28,7 @@ namespace Vstk.ClusterClient.Tests.Core.Modules
         public async Task ExecuteAsync_should_create_trace()
         {
             var requestContext = Substitute.For<IRequestContext>();
-            var request = new Request("GET", new Uri("vstk/process?p1=p", UriKind.Relative));
+            var request = new Request("GET", new Uri("vostok/process?p1=p", UriKind.Relative));
             requestContext.Request.Returns(request);
             requestContext.Strategy.Returns(new ParallelRequestStrategy(2));
             var response = new Response(ResponseCode.Conflict);
@@ -39,7 +39,7 @@ namespace Vstk.ClusterClient.Tests.Core.Modules
                 [TracingAnnotationNames.Component] = "cluster-client",
                 [TracingAnnotationNames.ClusterStrategy] = "Parallel-2",
                 [TracingAnnotationNames.ClusterStatus] = "Success",
-                [TracingAnnotationNames.HttpUrl] = "vstk/process",
+                [TracingAnnotationNames.HttpUrl] = "vostok/process",
                 [TracingAnnotationNames.HttpMethod] = "GET",
                 [TracingAnnotationNames.HttpRequestContentLength] = "0",
                 [TracingAnnotationNames.HttpResponseContentLength] = "0",

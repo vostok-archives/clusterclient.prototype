@@ -5,18 +5,18 @@ using System.Threading;
 using FluentAssertions;
 using NSubstitute;
 using NUnit.Framework;
-using Vstk.Clusterclient.Misc;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Modules;
-using Vstk.Clusterclient.Ordering;
-using Vstk.Clusterclient.Ordering.Storage;
-using Vstk.Clusterclient.Sending;
-using Vstk.Clusterclient.Strategies;
-using Vstk.Clusterclient.Topology;
-using Vstk.ClusterClient.Tests.Helpers;
-using Vstk.Logging.Logs;
+using Vostok.Clusterclient.Misc;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Modules;
+using Vostok.Clusterclient.Ordering;
+using Vostok.Clusterclient.Ordering.Storage;
+using Vostok.Clusterclient.Sending;
+using Vostok.Clusterclient.Strategies;
+using Vostok.Clusterclient.Topology;
+using Vostok.ClusterClient.Tests.Helpers;
+using Vostok.Logging.Logs;
 
-namespace Vstk.ClusterClient.Tests.Core.Modules
+namespace Vostok.ClusterClient.Tests.Core.Modules
 {
     public class RequestExecutionModule_Tests
     {

@@ -1,9 +1,9 @@
 ﻿using System;
 using FluentAssertions;
 using NUnit.Framework;
-using Vstk.Clusterclient.Retry;
+using Vostok.Clusterclient.Retry;
 
-namespace Vstk.ClusterClient.Tests.Core.Retry
+namespace Vostok.ClusterClient.Tests.Core.Retry
 {
     public class ImmediateRetryStrategy_Tests
     {

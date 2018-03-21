@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Vstk.Clusterclient.Model;
+using Vostok.Clusterclient.Model;
 
-namespace Vstk.Clusterclient.Criteria
+namespace Vostok.Clusterclient.Criteria
 {
     internal class ResponseClassifier : IResponseClassifier
     {

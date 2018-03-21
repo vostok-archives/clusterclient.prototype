@@ -4,14 +4,14 @@ using System.Threading.Tasks;
 using FluentAssertions;
 using NSubstitute;
 using NUnit.Framework;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Modules;
-using Vstk.Clusterclient.Sending;
-using Vstk.Clusterclient.Strategies;
-using Vstk.ClusterClient.Tests.Helpers;
-using Vstk.Logging.Logs;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Modules;
+using Vostok.Clusterclient.Sending;
+using Vostok.Clusterclient.Strategies;
+using Vostok.ClusterClient.Tests.Helpers;
+using Vostok.Logging.Logs;
 
-namespace Vstk.ClusterClient.Tests.Core.Sending
+namespace Vostok.ClusterClient.Tests.Core.Sending
 {
     public class ContextualRequestSender_Tests
     {

@@ -1,4 +1,4 @@
-﻿namespace Vstk.Clusterclient.Ordering.Weighed.Adaptive
+﻿namespace Vostok.Clusterclient.Ordering.Weighed.Adaptive
 {
     /// <summary>
     /// Represents an action to be taken on replica health value.

@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Transforms;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Transforms;
 
-namespace Vstk.Clusterclient.Modules
+namespace Vostok.Clusterclient.Modules
 {
     internal class RequestTransformationModule : IRequestModule
     {

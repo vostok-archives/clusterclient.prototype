@@ -2,9 +2,9 @@
 using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
-using Vstk.Clusterclient.Model;
+using Vostok.Clusterclient.Model;
 
-namespace Vstk.Clusterclient.Transport
+namespace Vostok.Clusterclient.Transport
 {
     internal class TransportWithAuxiliaryHeaders : ITransport
     {

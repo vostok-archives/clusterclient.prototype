@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
-using Vstk.Clusterclient.Model;
-using Vstk.Logging;
+using Vostok.Clusterclient.Model;
+using Vostok.Logging;
 
-namespace Vstk.Clusterclient.Modules
+namespace Vostok.Clusterclient.Modules
 {
     internal class RequestValidationModule : IRequestModule
     {

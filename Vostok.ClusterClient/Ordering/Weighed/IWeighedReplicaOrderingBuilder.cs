@@ -1,7 +1,7 @@
 ﻿using JetBrains.Annotations;
-using Vstk.Logging;
+using Vostok.Logging;
 
-namespace Vstk.Clusterclient.Ordering.Weighed
+namespace Vostok.Clusterclient.Ordering.Weighed
 {
     /// <summary>
     /// Represents a builder used to construct a <see cref="WeighedReplicaOrdering"/> instance.

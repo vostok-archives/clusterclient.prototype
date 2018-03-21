@@ -3,13 +3,13 @@ using System.Threading;
 using FluentAssertions;
 using NSubstitute;
 using NUnit.Framework;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Sending;
-using Vstk.Clusterclient.Strategies;
-using Vstk.Clusterclient.Strategies.TimeoutProviders;
-using Vstk.ClusterClient.Tests.Helpers;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Sending;
+using Vostok.Clusterclient.Strategies;
+using Vostok.Clusterclient.Strategies.TimeoutProviders;
+using Vostok.ClusterClient.Tests.Helpers;
 
-namespace Vstk.ClusterClient.Tests.Core.Strategies
+namespace Vostok.ClusterClient.Tests.Core.Strategies
 {
     public class SequentialRequestStrategy_Tests
     {

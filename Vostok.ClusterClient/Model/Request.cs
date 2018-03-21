@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using JetBrains.Annotations;
-using Vstk.Commons.Extensions.Uri;
+using Vostok.Commons.Extensions.Uri;
 
-namespace Vstk.Clusterclient.Model
+namespace Vostok.Clusterclient.Model
 {
     /// <summary>
     /// <para>Represents an HTTP request (method, url, headers and body content).</para>

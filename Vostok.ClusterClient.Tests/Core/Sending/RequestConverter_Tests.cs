@@ -1,11 +1,11 @@
 ﻿using System;
 using FluentAssertions;
 using NUnit.Framework;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Sending;
-using Vstk.Logging.Logs;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Sending;
+using Vostok.Logging.Logs;
 
-namespace Vstk.ClusterClient.Tests.Core.Sending
+namespace Vostok.ClusterClient.Tests.Core.Sending
 {
     public class RequestConverter_Tests
     {

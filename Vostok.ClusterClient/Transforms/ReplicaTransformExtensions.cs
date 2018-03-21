@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Vstk.Clusterclient.Transforms
+namespace Vostok.Clusterclient.Transforms
 {
     public static class ReplicaTransformExtensions
     {

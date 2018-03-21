@@ -1,10 +1,10 @@
 ﻿using System.Diagnostics;
 using FluentAssertions;
 using NUnit.Framework;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Transforms;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Transforms;
 
-namespace Vstk.ClusterClient.Tests.Core.Transforms
+namespace Vostok.ClusterClient.Tests.Core.Transforms
 {
     public class DefaultHeadersTransform_Tests
     {

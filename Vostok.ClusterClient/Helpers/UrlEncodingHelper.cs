@@ -2,7 +2,7 @@
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace Vstk.Clusterclient.Helpers
+namespace Vostok.Clusterclient.Helpers
 {
     internal static class UrlEncodingHelper
     {
