@@ -8,7 +8,7 @@ default:
 
   install:
     - Vostok.ClusterClient/bin/Release/netstandard2.0/Vostok.ClusterClient.dll
-    - module vostok.core
+    - module vostok.legacy.core
   
   deps:
     - vostok.legacy.core
